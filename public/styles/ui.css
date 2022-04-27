@@ -1,0 +1,15 @@
+/* body {
+    background-image: linear-gradient(120deg, #0093E9 0%, #80D0C7 100%);
+} */
+
+.color-img {
+    background-image: linear-gradient(to right, #29323c, #485563);
+}
+
+.reg-img {
+    width: 100%;
+    background-image: url('../img/music_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}

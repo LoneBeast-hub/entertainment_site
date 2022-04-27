@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/ui.css">
+    <link rel="stylesheet" href="styles/menu.css">
+</head>
+
+<body class="font-Poppins color-img">
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <!-- navigation -->
+            <nav class="nav">
+                <!-- brand logo -->
+                <div class="logo">
+                    <a href="index.html">PDSworld</a>
+                </div>
+                <!-- navigation links -->
+                <div class="nav-links">
+                    <a href="index.html">HOME</a>
+                    <a href="music.html">MUSIC</a>
+                    <a href="tv.html">TV</a>
+                    <a href="register.html" class="reg-btn">REGISTER</a>
+                </div>
+                <i class="toggle-menu fas fa-bars"></i>
+                <div class="clear-both"></div>
+            </nav>
+        </header>
+
+        <!-- Section -->
+        <section class="relative">
+            <div class="container flex flex-col-reverse sm:flex-row items-center gap-5 mt-14 sm:mt-28">
+                <!-- content -->
+                <div class="flex flex-1 flex-col mb-20 sm:mb-0 items-center sm:items-start">
+                    <h2 class="text-white text-3xl md:text-4 sm:text-5xl text-center sm:text-left mb-2">
+                        Welcome to the world of Entertainment and Music
+                    </h2>
+                    <div class="flex justify-center flex-wrap gap-6">
+                        <button type="button" class="btn bg-purple-500 uppercase hover:bg-red-400"><a href="music.html">Music</a></button>
+                        <button type="button" class="btn bg-red-400 uppercase hover:bg-purple-500"><a href="tv.html">tv</a></button>
+                    </div>
+                </div>
+                <!-- Image -->
+                <div class="justify-center flex-1 mb-5 sm:mb-0">
+                    <img src="img/home_bg.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="container justify-center flex mt-10 mb-10 sm:flex-row gap-6 flex-col-reverse">
+            <!-- <div class="flex flex-auto justify-center gap-5 text-white sm:text-2xl items-start">
+                <i class="fab fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+            </div> -->
+            <div class="flex-auto w-92">
+                <p class="text-center text-white">Copyrights &copy; 2022 PDSworld</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script/menu.js"></script>
+</body>
+
+</html>

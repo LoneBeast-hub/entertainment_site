@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/ui.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/audio.css">
+</head>
+
+<body class="font-Poppins color-img">
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <!-- navigation -->
+            <nav class="nav">
+                <!-- brand logo -->
+                <div class="logo">
+                    <a href="index.html">PDSworld</a>
+                </div>
+                <!-- navigation links -->
+                <div class="nav-links">
+                    <a href="index.html">HOME</a>
+                    <a href="music.html">MUSIC</a>
+                    <a href="tv.html">TV</a>
+                    <a href="register.html" class="reg-btn">REGISTER</a>
+                </div>
+                <i class="toggle-menu fas fa-bars"></i>
+                <div class="clear-both"></div>
+            </nav>
+        </header>
+
+        <!-- Section -->
+        <section class="relative w-full">
+            <!-- Heading -->
+            <h2 class="text-center mt-6 mb-6 text-white text-1xl sm:text-3xl uppercase">Music</h2>
+            <!-- Audio Player -->
+            <!-- <audio class="mx-auto mt-6 mb-6" src="" controls></audio>
+            <div class="container w-3/5 bg-red-600 flex">
+                hey
+            </div> -->
+
+            <div class="audio-player mx-auto mb-6">
+                <audio src="https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-61905/zapsplat_multimedia_alert_chime_short_musical_notification_cute_child_like_001_64918.mp3?_=1"></audio>
+                <div class="controls">
+                    <button class="player-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#fff">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <input type="range" class="timeline" max="100" value="0">
+                    <button class="sound-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#fff">
+                            <path fill-rule="evenodd" d="M9.383 3.076A1 1 0 0110 4v12a1 1 0 01-1.707.707L4.586 13H2a1 1 0 01-1-1V8a1 1 0 011-1h2.586l3.707-3.707a1 1 0 011.09-.217zM14.657 2.929a1 1 0 011.414 0A9.972 9.972 0 0119 10a9.972 9.972 0 01-2.929 7.071 1 1 0 01-1.414-1.414A7.971 7.971 0 0017 10c0-2.21-.894-4.208-2.343-5.657a1 1 0 010-1.414zm-2.829 2.828a1 1 0 011.415 0A5.983 5.983 0 0115 10a5.984 5.984 0 01-1.757 4.243 1 1 0 01-1.415-1.415A3.984 3.984 0 0013 10a3.983 3.983 0 00-1.172-2.828 1 1 0 010-1.415z" clip-rule="evenodd" />
+                        </svg>
+                  </button>
+                </div>
+              </div>
+
+            <!-- Card list -->
+            <div class="w-full flex flex-row flex-wrap gap-6 lg:mb-2 mb-1 justify-center">
+                <!-- card item -->
+                <div class="flex lg:w-1/2 w-1/1 flex-col items-center bg-indigo-400 rounded-lg border shadow-md sm:flex-row md:max-w-xl hover:bg-indigo-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <img class="object-cover w-full h-96 rounded-t-lg sm:h-auto sm:w-48 md:rounded-none md:rounded-l-lg" src="img/logo.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 line-clamp-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quas enim impedit ipsam suscipit incidunt doloremque debitis dolore amet iusto! Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    </div>
+                </div>
+                <!-- card item -->
+                <div class="flex lg:w-1/2 w-1/1 flex-col items-center bg-indigo-400 rounded-lg border shadow-md sm:flex-row md:max-w-xl hover:bg-indigo-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <img class="object-cover w-full h-96 rounded-t-lg sm:h-auto sm:w-48 md:rounded-none md:rounded-l-lg" src="img/logo.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 line-clamp-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quas enim impedit ipsam suscipit incidunt doloremque debitis dolore amet iusto! Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    </div>
+                </div>
+                <!-- card item -->
+                <div class="flex lg:w-1/2 w-1/1 flex-col items-center bg-indigo-400 rounded-lg border shadow-md sm:flex-row md:max-w-xl hover:bg-indigo-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <img class="object-cover w-full h-96 rounded-t-lg sm:h-auto sm:w-48 md:rounded-none md:rounded-l-lg" src="img/logo.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 line-clamp-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quas enim impedit ipsam suscipit incidunt doloremque debitis dolore amet iusto! Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    </div>
+                </div>
+                <!-- card item -->
+                <div class="flex lg:w-1/2 w-1/1 flex-col items-center bg-indigo-400 rounded-lg border shadow-md sm:flex-row md:max-w-xl hover:bg-indigo-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <img class="object-cover w-full h-96 rounded-t-lg sm:h-auto sm:w-48 md:rounded-none md:rounded-l-lg" src="img/logo.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 line-clamp-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quas enim impedit ipsam suscipit incidunt doloremque debitis dolore amet iusto! Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- footer -->
+        <footer class="container justify-center flex mt-10 mb-10 sm:flex-row gap-6 flex-col-reverse">
+            <!-- <div class="flex flex-auto justify-center gap-5 text-white sm:text-2xl items-start">
+                <i class="fab fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+            </div> -->
+            <div class="flex-auto w-92">
+                <p class="text-center text-white">Copyrights &copy; 2022 PDSworld</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script/menu.js"></script>
+    <script src="script/audio.js"></script>
+</body>
+
+</html>

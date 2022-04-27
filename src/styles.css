@@ -1,4 +1,12 @@
-body {
-    margin: 0;
-    padding: 0;
+/* Tailwind utility classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import new font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Bigelow+Rules&family=Open+Sans:wght@500&display=swap');
+
+/* base style */
+.btn {
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300 text-white
 }
